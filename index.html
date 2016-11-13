@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FORM JJ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="container">
+  <form method="post" action="traitement.php">
+
+   <fieldset class="coord flexcol">
+       <legend>Vos coordonnées</legend> <!-- Titre du fieldset -->
+
+       <label for="nom">Nom ?</label>
+       <input type="text" name="nom" id="nom" />
+
+       <label for="prenom">Prénom ?</label>
+       <input type="text" name="prenom" id="prenom" />
+
+       <label for="email">E-mail ?</label>
+       <input type="email" name="email" id="email" />
+
+   </fieldset>
+
+   <fieldset class="situ flexcol">
+       <legend>Situation Professionelle</legend> <!-- Titre du fieldset -->
+
+       <p>
+           Indiquez votre situation ci-dessous :
+            <br/><br/>
+           <input type="radio" name="situation" value="demandeur" id="demandeur" /> <label for="demandeur">Demandeur d'emploi</label>
+            <br/><br/>
+           <input type="radio" name="situation" value="ouvrier" id="ouvrier" /> <label for="ouvrier">Ouvrier</label>
+            <br/><br/>
+           <input type="radio" name="situation" value="cadre" id="cadre" /> <label for="cadre">Cadre</label>
+            <br/><br/>
+           <input type="radio" name="situation" value="autre" id="autre" /> <label for="autre">Autre</label>
+       </p>
+
+       <p>
+           <label for="precisions">Si "Autre", veuillez préciser :</label>
+           <textarea name="precisions" id="precisions" cols="40" rows="4"></textarea>
+       </p>
+     </fieldset>
+    </form>
+  </section>
+</body>
+</html>
