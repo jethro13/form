@@ -9,7 +9,8 @@ body {
   height: 100vh;
 }
 .flexcol {
-  
+  display:flex;
+  flex-direction:column;
   background-color: rgba(42, 185, 56, 0.74);
 }
 .white {
