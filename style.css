@@ -3,8 +3,10 @@ body {
   margin:0;
 }
 .container {
+  margin-top:20vh;
+  margin-left:25vw;
   width: 50vw;
-  height: 100vh; 
+  height: 60vh; 
 }
 .flexcol {
   display: flex;
