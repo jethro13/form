@@ -1,8 +1,11 @@
 .container {
   width: 50vw;
+  height: 100vh;
 }
 .flexcol {
   display: flex;
   flex-direction: column;
   background-color: rgba(42, 185, 56, 0.74);
+  width:100%;
+  height:100%;
 }
