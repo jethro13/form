@@ -5,8 +5,8 @@ body {
 }
 .container {
   margin-left:15vw;
-  width: 75vw;
-  height: 100vh;
+  width: 75%;
+  height: 100%;
 }
 .flexcol {
   display:flex;
