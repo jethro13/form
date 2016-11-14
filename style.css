@@ -6,7 +6,9 @@ body {
   margin-top:20vh;
   margin-left:25vw;
   width: 50vw;
-  height: 60vh; 
+  height: 100vh; 
+  border-left:2px solid white;
+  border-right:2px solid white;
 }
 .flexcol {
   display: flex;
