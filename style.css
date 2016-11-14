@@ -17,4 +17,6 @@ body {
   color:white;
   font-size:1.5em;
   background-color: rgba(42, 10, 200, 0.74);
+  border-radius: 10px;
+  font-family: impact;
 }
