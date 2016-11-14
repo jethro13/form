@@ -1,7 +1,9 @@
+body {
+  background-color:black;
+}
 .container {
   width: 50vw;
-  height: 100vh;
-  background-color:black;
+  height: 100vh; 
 }
 .flexcol {
   display: flex;
